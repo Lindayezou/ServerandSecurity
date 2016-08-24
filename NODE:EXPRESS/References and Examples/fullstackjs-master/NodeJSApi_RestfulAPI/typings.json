@@ -1,0 +1,16 @@
+{
+  "name": "appname",
+  "dependencies": {},
+  "globalDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20160614091201",
+    "angular-resource": "registry:dt/angular-resource#1.5.0+20160613142217",
+    "angular-ui-router": "registry:dt/angular-ui-router#1.1.5+20160521151413",
+    "body-parser": "registry:dt/body-parser#0.0.0+20160317120654",
+    "express": "registry:dt/express#4.0.0+20160317120654",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#0.0.0+20160602151406",
+    "jquery": "registry:dt/jquery#1.10.0+20160417213236",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "node": "registry:dt/node#6.0.0+20160613154055",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
+  }
+}

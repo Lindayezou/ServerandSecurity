@@ -1,0 +1,9 @@
+*.js
+!*.spec.js
+!config.js
+!my.conf.js
+/node_modules
+/bower_components
+/typings
+
+npm-debug.log

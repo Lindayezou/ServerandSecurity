@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+	<title>My App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/bootstrap_theme.css">
+	<link rel="stylesheet" type="text/css" href="/assets/site.css">
+	<base href="/">
+</head>
+
+<body>
+	<navbar></navbar>
+	<ui-view></ui-view>
+	<script src="/angular/angular.min.js"></script>
+	<script src="/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="/angular-resource/angular-resource.min.js"></script>
+
+	<script src="/app.js"></script>
+
+	<script src="/directives/navbar.directive.js"></script>
+
+	<script src="/services/bug.service.js"></script>
+
+	<script src="/controllers/home.controller.js"></script>
+	<script src="/controllers/navbar.controller.js"></script>
+	<script src="/controllers/home.controller.js"></script>
+	<script src="/controllers/create.bug.controller.js"></script>
+	<script src="/controllers/edit.bug.controller.js"></script>
+</body>
+
+</html>

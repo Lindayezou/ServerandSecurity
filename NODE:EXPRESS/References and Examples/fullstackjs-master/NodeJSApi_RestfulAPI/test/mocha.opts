@@ -1,0 +1,5 @@
+--require test-env
+--require should-sinon
+--reporter spec
+--ui bdd
+--timeout 90
